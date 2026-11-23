@@ -1,0 +1,13 @@
+{
+  "name": "aetheris-preview",
+  "version": "4.0.0",
+  "description": "Aetheris — AI Automation Platform (Public Preview Edition). Contribute in SOL for Full Licensed Repository access.",
+  "license": "SEE LICENSE IN LICENSING.md",
+  "scripts": {
+    "start": "AETHERIS_EDITION=preview node scripts/aetheris-web.js",
+    "aetheris": "AETHERIS_EDITION=preview node scripts/aetheris-web.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
